@@ -1,0 +1,17 @@
+Ceiling=smallest element in array greater or equals to target
+
+int[] arr={1,2,4,5,6,10} target=8 
+answer =10
+int[] arr={1,2,4,5,6,10} target=6
+answer =6
+
+
+
+int[] arr={1,2,7,9,10,11} target=6
+answer =9
+
+int[] arr={1,2,7,9,10,11} target=2
+answer =2
+
+
+
