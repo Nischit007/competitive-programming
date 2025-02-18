@@ -1,7 +1,8 @@
-public class index {
+
+public class Floor {
 
     public static int binarySearch(int[] arr, int start, int end, int k) {
-        int ceiling = -1; 
+        int floor = -1; 
 
         while (start <= end) {
             int mid = (start + end) / 2;
@@ -9,14 +10,15 @@ public class index {
             if (arr[mid] == k) {
                 return arr[mid];
             } else if (arr[mid] < k) {
+                floor = arr[mid];
                 start = mid + 1; 
             } else {
-                ceiling = arr[mid];
+              
                 end = mid - 1;
             }
         }
 
-        return ceiling;
+        return floor;
     }
 
     public static void main(String[] args) {
