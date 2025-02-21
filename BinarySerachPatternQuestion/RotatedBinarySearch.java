@@ -2,21 +2,26 @@ public class RotatedBinarySearch {
     
     public static void main(String[] args) {
         int[] arr={10 , 9 , 8 ,7 , 1, 2, 3, 4, 5};
-        int index=findThesSoultion(arr);
+        int index=search(arr,13);
         System.out.println(index);
     }
 
 
-    static int findThesSoultion(int[] arr){
+    static int search(int[] arr,int target){
         int pivot=findPivot(arr);
-        int inFirstArray=binarySearch(arr,0,pivot,3);
-        if(inFirstArray!=-1){
-            return  inFirstArray;
+        if(pivot==-1){
+           return binarySearch(arr,0,arr.length-1,target);
         }
-        if(pivot<arr.length-1){
-            return binarySearch(arr,pivot+1,arr.length,3);
+        if(arr[pivot]==target){
+            return pivot;
         }
-        return -1;
+
+        if(target>=arr[0]){
+          return  binarySearch(arr,0,pivot-1,target);
+        }
+
+        return  binarySearch(arr,pivot+1,arr.length-1,target);
+        
     }
     
     static int findPivot(int[] arr){
