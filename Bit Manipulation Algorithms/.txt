@@ -1,0 +1,49 @@
+AND OR AND XOR operator  --- study from google or books
+
+
+now 
+^(XOR)
+        _
+a ^ 1 = a
+
+_
+a =complement of a
+
+ 1010 ^ 1 = 0101
+
+ 1010 ^ 0 =1010 same number
+
+ a ^ a = 0000 
+
+
+ left shift operator  <<
+
+
+
+ 10 << 1
+
+ first of all 10 will converted into binary
+
+ 1010 << 1 it will shift the number to left
+10100 ->answer left the entire number in left and add zero at last
+
+it will also double the number 10 after left shit becames 20
+
+a<<1=2a
+
+a<<b =a*2^b 
+
+
+
+Right shift operator  >> 
+
+
+0011001 >> 1 => 
+ 001100   answer the last number will be ignore for example in above case 1 is ignored..
+
+a >> b = a/2^b
+
+
+
+1011001 where 1 at last is LSB: least significant bit
+      

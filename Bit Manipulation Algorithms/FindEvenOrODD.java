@@ -10,3 +10,6 @@ public class FindEvenOrODD {
         }
     }
 }
+
+// in this above question a=1010 & 0001 where all number is 0000 which is even
+
