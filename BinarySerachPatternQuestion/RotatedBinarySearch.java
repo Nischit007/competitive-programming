@@ -79,7 +79,7 @@ public class RotatedBinarySearch {
             if(mid>start && arr[mid]<arr[mid-1]){
                 return mid-1;
             }
-
+//
             // 3 case 
             
             // if elements at middle,start,end are equals the just skip the duplicates
