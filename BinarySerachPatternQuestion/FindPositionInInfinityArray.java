@@ -5,7 +5,7 @@
 // the length of array is infite means dont use .length function to find the length or last end 
 
 public class FindPositionInInfinityArray {
-
+//
     public static void main(String[] args) {
         int[] arr={1,2,3,4,5,6,7,8,10,13,17,19,20,22,50,51,100,101,102};
         System.out.println(ans(arr,13));
