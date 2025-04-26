@@ -11,9 +11,6 @@ public class SimpleQno {
     }
 
 
-
-
-
     public static void ReverseOrderInsert(int[] arr,int n,int i){
         if(n==0)return ;
         
