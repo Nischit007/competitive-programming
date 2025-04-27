@@ -32,4 +32,4 @@ public class FirstAndLastOccurInArray {
     }
     
     
-    // without passing list in parameter
+    // without passing list in parameter  as argument
