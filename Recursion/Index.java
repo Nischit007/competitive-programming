@@ -1,8 +1,5 @@
 
-
-
 public class Index {
-
     public static void hello(int n){
         System.out.println(n);
         if(n==0)return ;
