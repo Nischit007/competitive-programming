@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+
+
+// in arguments we are passing array, index, target and list
 public class FirstAndLastOccurInArray {
     public static ArrayList<Integer> LinearSearch(int[] arr,int index,int target,ArrayList<Integer> list)	{
         if(index>arr.length-1)return list;
@@ -29,3 +32,4 @@ public class FirstAndLastOccurInArray {
     }
     
     
+    // without passing list in parameter
