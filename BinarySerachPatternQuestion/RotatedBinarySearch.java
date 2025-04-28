@@ -1,12 +1,9 @@
 public class RotatedBinarySearch {
-    
     public static void main(String[] args) {
         int[] arr={10 , 9 , 8 ,7 , 1, 2, 3, 4, 5};
         int index=search(arr,13);
         System.out.println(index);
     }
-
-
     static int search(int[] arr,int target){
         int pivot=findPivot(arr);
         if(pivot==-1){
@@ -15,11 +12,9 @@ public class RotatedBinarySearch {
         if(arr[pivot]==target){
             return pivot;
         }
-
         if(target>=arr[0]){
           return  binarySearch(arr,0,pivot-1,target);
         }
-
         return  binarySearch(arr,pivot+1,arr.length-1,target);
         
     }
